@@ -1,0 +1,45 @@
+@import url(nav.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+    --primary-color:#1b8e99;
+    --secondary-color:#660000;
+}
+
+.blue{
+    color: var(--primary-color);
+
+}
+
+.red{
+    color: var(--secondary-color);
+
+}
+
+.bg-format{
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: contain;
+    
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 98rem;
+    height: 100%;
+    margin-top: 6rem;
+
+}
+

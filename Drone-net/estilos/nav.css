@@ -1,0 +1,424 @@
+nav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 4.5rem;
+}
+
+
+.navbar-1{
+    background-color: var(--primary-color);
+    justify-content: space-between;
+}
+
+.logo-img{
+    width: 19.4rem;
+    height: 14.6rem;
+    background-image: url(/Drone-net/img/logo.fw.png);
+    margin-left: 2rem;
+    position: relative;
+    bottom: -1.6rem;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    gap: 3rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    overflow-wrap: break-word;
+}
+
+li{
+
+    justify-content: center;
+}
+
+.navbar-1 a:hover{
+    scale: 1.2;
+    background-color: rgba(146, 201, 206);
+}
+
+.navbar-2 a:hover{
+    scale: 1.2;
+    background-color: white;
+    color: var(--secondary-color);
+}
+
+
+/* quebra de linha  */
+.line-break{
+    width: 6rem;
+    text-align: center;
+}
+/* quebra de linha  */
+a{  
+    height: 4.5rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+
+
+.main-bg{
+    width: 100%;
+    height: 34rem;
+    background-image: url(/Drone-net/img/banner.fw.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+/******************** inicio navbar 2 ********************/
+.navbar-2{
+    background-color: var(--secondary-color);
+}
+/******************** fim navbar 2 ********************/
+
+/****************** inicio header ******************/
+
+.header-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header{
+    width: 100%;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    align-items: unset;
+    justify-content: unset;
+}
+
+h2{
+    padding: .5rem;
+    font-size: 2rem;
+}
+
+.line{
+        width: 100%;
+        height: .5rem;
+}
+
+.line-1{
+    background-color: var(--secondary-color);
+}
+
+.side-img{
+    height: 7.7rem;
+    width: 12.5rem;
+    position: relative;
+    bottom: -1.5rem;
+}
+
+.side-img-1{
+    background-image: url(/Drone-net/img/imgDroneA.png);
+}
+
+/******************* fim header *******************/
+/***************** card section  *****************/
+
+.card-section-position{
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.card-section{
+    width: 98%;
+    height: 37.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+}
+
+.card-b, .card-r{
+    width: 30rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-b{
+    border: 1.5px solid var(--primary-color);
+}
+
+.card-r{
+    border: 1.5px solid var(--secondary-color);
+}
+
+.card-section h3{
+    font-size: 1.4rem;
+    height: 3rem;
+    width: 97%;
+    margin: .5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.card-b h3{
+    color: var(--primary-color);
+    background-color: rgba(27, 142, 153, .2);
+}
+
+.card-r h3{
+    color: var(--secondary-color);
+    background-color: rgba(102, 0, 0, .2);
+}
+
+
+
+.card-img-1{
+    background-image: url(/Drone-net/img/DroneA.png);
+}
+
+.card-img-2{
+    background-image: url(/Drone-net/img/DroneB.png);
+}
+
+.card-img-3{
+    background-image: url(/Drone-net/img/DroneC.png);
+}
+
+.card-img{
+    width: 100%;
+    height: 50%;
+    background-position: 50%;
+}
+
+.card-price-wrap{
+    height: 9.6rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+    color: white;
+}
+
+.card-price-wrap h2{
+    padding: 0;
+}
+
+.card-b .card-price-wrap{
+    background-color: var(--primary-color);
+}
+
+.card-r .card-price-wrap{
+    background-color: var(--secondary-color);
+}
+
+.p-b, .p-r{
+    font-size: 1.3rem;
+    margin: 1rem;
+}
+
+.p-b{
+    color: var(--primary-color);
+}
+
+.p-r{
+    color: var(--secondary-color);
+}
+
+h2{
+    font-size: 3rem;
+}
+
+.card-price-wrap p{
+    font-size: 1.4rem;
+}
+
+.cart-bg{
+    width: 6rem;
+    height: 5rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10%;
+}
+
+.cart-img{
+    background-image: url(/Drone-net/img/carrinho.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 10%;
+    width: 4.5rem;
+    height: 4.5rem;
+}
+
+/***************** fim card section  *****************/
+/***************** gray line  *****************/
+
+.gray-line{
+    width: 98%;
+    height: 1rem;
+    background-color: #444;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+}
+/***************** gray line  *****************/
+/************ inicio card section 2 ************/
+
+.line-2{
+    background-color: var(--primary-color);
+}
+
+.side-img-2{
+    background-image: url(/Drone-net/img/imgDroneB.png);
+}
+
+.card-section-position{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-card-section{
+    height: 40rem;
+    display: flex;
+    width: 98%;
+    gap: 2.4rem;
+}
+
+.card-size{
+    width: 30rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-bottom: 2rem;
+}
+
+.card-r-2{
+    border: 1.5px solid var(--secondary-color);
+    border-bottom: .5rem solid var(--secondary-color);
+}
+
+.card-b-2{
+    border: 1.5px solid var(--primary-color);
+    border-bottom: .5rem solid var(--primary-color);
+}
+
+.service-img{
+    width: 100%;
+    height: 13.7rem;
+}
+
+.service-img-1{
+    background-image: url(/Drone-net/img/ServicosA.png);
+}
+
+.service-img-2{
+    background-image: url(/Drone-net/img/ServicosB.png);
+}
+
+.service-img-3{
+    background-image: url(/Drone-net/img/ServicosC.png);
+}
+
+.service-description{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    font-family: Tahoma, sans-serif;
+    margin: 1rem 1rem;
+}
+
+.service-description h3{
+    font-size: 1.7rem;
+    margin-bottom: 3rem;
+}
+
+.service-description p{
+    font-size: 1.3rem;
+}
+
+/************* fim card section 2 *************/
+
+/* footer  */
+
+.drone-footer-wrap{
+    display: flex;
+}
+
+.drone-footer{
+    background-image: url(/Drone-net/img/imgDroneC.png);
+    width: 14rem;
+    height: 4.5rem;
+}
+
+.drone-solo{
+    margin-right: 22rem;
+}
+
+.wrap-justify{
+    width: 55%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.footer-top{
+    background-color: var(--primary-color);
+    width: 100%;
+    height: 9.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.drones-net{
+    background-image: url(/Drone-net/img/logo.png);
+    width: 12rem;
+    height: 4rem;
+}
+
+.footer-top p, .footer-bottom p{
+    font-family: Tahoma, sans-serif;
+    font-size: 1.4rem;
+    color: white;
+}
+
+.prof-img{
+    background-image: url(/Drone-net/img/imgProfessor.png);
+    width: 4rem;
+    height: 10rem;
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: contain;
+    scale: 2;
+    position: relative;
+    top: -3rem;
+}
+
+.footer-bottom{
+    background-color: var(--secondary-color);
+    width: 100%;
+    height: 2.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.footer-bottom p{
+    margin-right: 8rem;
+}
+
+
+/* footer  */
