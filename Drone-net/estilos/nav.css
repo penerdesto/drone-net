@@ -14,7 +14,7 @@ nav{
 .logo-img{
     width: 19.4rem;
     height: 14.6rem;
-    background-image: url(/Drone-net/img/logo.fw.png);
+    background-image: url(/img/logo.fw.png);
     margin-left: 2rem;
     position: relative;
     bottom: -1.6rem;
@@ -68,7 +68,7 @@ a{
 .main-bg{
     width: 100%;
     height: 34rem;
-    background-image: url(/Drone-net/img/banner.fw.png);
+    background-image: url(/img/banner.fw.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50%;
@@ -118,7 +118,7 @@ h2{
 }
 
 .side-img-1{
-    background-image: url(/Drone-net/img/imgDroneA.png);
+    background-image: url(/img/imgDroneA.png);
 }
 
 /******************* fim header *******************/
@@ -180,15 +180,15 @@ h2{
 
 
 .card-img-1{
-    background-image: url(/Drone-net/img/DroneA.png);
+    background-image: url(/img/DroneA.png);
 }
 
 .card-img-2{
-    background-image: url(/Drone-net/img/DroneB.png);
+    background-image: url(/img/DroneB.png);
 }
 
 .card-img-3{
-    background-image: url(/Drone-net/img/DroneC.png);
+    background-image: url(/img/DroneC.png);
 }
 
 .card-img{
@@ -251,7 +251,7 @@ h2{
 }
 
 .cart-img{
-    background-image: url(/Drone-net/img/carrinho.png);
+    background-image: url(/img/carrinho.png);
     background-repeat: no-repeat;
     background-size: contain;
     border-radius: 10%;
@@ -277,7 +277,7 @@ h2{
 }
 
 .side-img-2{
-    background-image: url(/Drone-net/img/imgDroneB.png);
+    background-image: url(/img/imgDroneB.png);
 }
 
 .card-section-position{
@@ -318,15 +318,15 @@ h2{
 }
 
 .service-img-1{
-    background-image: url(/Drone-net/img/ServicosA.png);
+    background-image: url(/img/ServicosA.png);
 }
 
 .service-img-2{
-    background-image: url(/Drone-net/img/ServicosB.png);
+    background-image: url(/img/ServicosB.png);
 }
 
 .service-img-3{
-    background-image: url(/Drone-net/img/ServicosC.png);
+    background-image: url(/img/ServicosC.png);
 }
 
 .service-description{
@@ -357,7 +357,7 @@ h2{
 }
 
 .drone-footer{
-    background-image: url(/Drone-net/img/imgDroneC.png);
+    background-image: url(/img/imgDroneC.png);
     width: 14rem;
     height: 4.5rem;
 }
@@ -383,7 +383,7 @@ h2{
 }
 
 .drones-net{
-    background-image: url(/Drone-net/img/logo.png);
+    background-image: url(/img/logo.png);
     width: 12rem;
     height: 4rem;
 }
@@ -395,7 +395,7 @@ h2{
 }
 
 .prof-img{
-    background-image: url(/Drone-net/img/imgProfessor.png);
+    background-image: url(/img/imgProfessor.png);
     width: 4rem;
     height: 10rem;
     z-index: 1;
