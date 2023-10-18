@@ -107,6 +107,7 @@ h2{
 }
 
 .line-1{
+    margin-left: .5rem;
     background-color: var(--secondary-color);
 }
 
